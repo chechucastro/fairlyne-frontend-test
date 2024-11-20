@@ -1,16 +1,5 @@
-# Fairlyne Frontend Test
+# Vue 3 + TypeScript + Vite
 
-## Informations sur le dépôt
+This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-- **URL du dépôt GitHub** : [https://github.com/chechucastro/fairlyne-frontend-test](https://github.com/chechucastro/fairlyne-frontend-test)
-- **URL Git** : `https://github.com/chechucastro/fairlyne-frontend-test.git`
-
-## Branche principale
-
-- La branche principale est : **`main`**  
-  **⚠️ Veuillez ne pas pousser directement sur cette branche.**
-
-  Pour toute modification :
-
-1. Créez une nouvelle branche à partir de `main`.
-2. Faites une _pull request_ (PR) pour intégrer vos modifications.
+Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).

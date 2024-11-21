@@ -13,6 +13,7 @@ Ce dépôt contient le projet pour le test frontend de Fairlyne.
 
 Pour exécuter le projet localement :
 
+
 1. Naviguez vers le dossier racine du client
 2. Exécutez la commande suivante :
    ```bash
@@ -56,4 +57,3 @@ Les éléments de la liste sont triés par date de modification et il y a 3 gran
 - Les emails
 - Les états de l'eligibilité
 
-Les tags sont colorés en fonction de leur statut (email et eligibilité)

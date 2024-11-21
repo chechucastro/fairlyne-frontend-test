@@ -1,0 +1,150 @@
+{
+  "resales": [
+    {
+      "id": "432c95eb-2a3e-48d9-950d-32f1656dfb44",
+      "bookingKey": "102802_30281225",
+      "pnr": "102802",
+      "passengerCabins": [
+        {
+          "id": "9e86f7d3-9e78-47f8-aaa6-57fc3f33412b",
+          "segmentKey": "AT10282_20241030_CDGRAK_ECONOMIC",
+          "cabin": "ECONOMIC",
+          "paxKey": "01234567890001",
+          "resold": false
+        }
+      ],
+      "contact": { "email": "a***@fairlyne.com", "locale": "fr-FR" },
+      "status": "PENDING_OPPORTUNITY",
+      "createdDateTime": "2024-10-28T12:23:09.277285Z",
+      "lastModifiedDateTime": "2024-11-08T15:02:46.853436Z"
+    },
+    {
+      "id": "9dcbceac-8bc3-4417-8b06-e6ade3a139ec",
+      "bookingKey": "103003_30281225",
+      "pnr": "103003",
+      "passengerCabins": [
+        {
+          "id": "2b39c076-362a-4467-84bb-bfcc6d6fd49c",
+          "segmentKey": "AT3032_20241231_RAKCDG_ECONOMIC",
+          "cabin": "ECONOMIC",
+          "paxKey": "01234567890001",
+          "compensationAmount": 802.0,
+          "compensationCurrency": "EUR",
+          "resold": false
+        },
+        {
+          "id": "aa9e49ae-2715-4aa6-8a0c-3ed1665193fb",
+          "segmentKey": "AT3031_20241231_CDGRAK_ECONOMIC",
+          "cabin": "ECONOMIC",
+          "paxKey": "01234567890001",
+          "compensationAmount": 802.0,
+          "compensationCurrency": "EUR",
+          "resold": false
+        }
+      ],
+      "contact": { "email": "c*****@fairlyne.com", "locale": "en-US" },
+      "status": "ON_SALE",
+      "createdDateTime": "2024-10-30T10:25:02.912534Z",
+      "lastModifiedDateTime": "2024-10-30T10:25:03.507751Z"
+    },
+    {
+      "id": "e4465051-bbc9-44dd-bc53-a037d3e7826d",
+      "bookingKey": "103002_30281225",
+      "pnr": "103002",
+      "passengerCabins": [
+        {
+          "id": "3d90925c-e06d-4b69-8d50-821bebc6400d",
+          "segmentKey": "AT3022_20241231_RAKCDG_ECONOMIC",
+          "cabin": "ECONOMIC",
+          "paxKey": "01234567890001",
+          "compensationAmount": 802.0,
+          "compensationCurrency": "EUR",
+          "resold": false
+        },
+        {
+          "id": "736c3af8-2707-4536-9df3-f6532d001120",
+          "segmentKey": "AT3021_20241231_CDGRAK_ECONOMIC",
+          "cabin": "ECONOMIC",
+          "paxKey": "01234567890001",
+          "compensationAmount": 802.0,
+          "compensationCurrency": "EUR",
+          "resold": false
+        }
+      ],
+      "contact": { "email": "c*****@fairlyne.com", "locale": "en-US" },
+      "status": "ON_SALE",
+      "createdDateTime": "2024-10-30T09:09:07.295652Z",
+      "lastModifiedDateTime": "2024-10-30T09:09:08.483814Z"
+    },
+    {
+      "id": "b88d202c-0dbf-4a29-95ce-7525cbbfa73d",
+      "bookingKey": "103001_30281225",
+      "pnr": "103001",
+      "passengerCabins": [
+        {
+          "id": "0d9b32a9-ce1a-47e5-82a1-84906c59f89f",
+          "segmentKey": "AT3012_20241231_RAKCDG_ECONOMIC",
+          "cabin": "ECONOMIC",
+          "paxKey": "01234567890001",
+          "compensationAmount": 802.0,
+          "compensationCurrency": "EUR",
+          "resold": false
+        },
+        {
+          "id": "af748394-dfe1-48c4-8410-39054670a631",
+          "segmentKey": "AT3011_20241231_CDGRAK_ECONOMIC",
+          "cabin": "ECONOMIC",
+          "paxKey": "01234567890001",
+          "compensationAmount": 802.0,
+          "compensationCurrency": "EUR",
+          "resold": false
+        }
+      ],
+      "contact": { "email": "c*****@fairlyne.com", "locale": "en-US" },
+      "status": "ON_SALE",
+      "createdDateTime": "2024-10-30T08:53:45.762384Z",
+      "lastModifiedDateTime": "2024-10-30T08:53:46.271452Z"
+    },
+    {
+      "id": "4412f40b-b10f-40f6-a0d4-cd2844efa023",
+      "bookingKey": "102903_30281225",
+      "pnr": "102903",
+      "passengerCabins": [
+        {
+          "id": "caacf92f-3d5a-4e89-bdb3-0388f7e3ed53",
+          "segmentKey": "AT2931_20241029_CDGRAK_ECONOMIC",
+          "cabin": "ECONOMIC",
+          "paxKey": "01234567890001",
+          "compensationAmount": 802.0,
+          "compensationCurrency": "EUR",
+          "resold": false,
+          "voucher": {
+            "id": "681c833d-b91a-44c3-ba3f-1d06d8e627a2",
+            "number": "P4E8CD",
+            "amount": 802.0,
+            "currency": "EUR"
+          }
+        },
+        {
+          "id": "ad3ac312-e0e4-4b72-ac16-9bcde8ac0843",
+          "segmentKey": "AT2932_20241029_RAKCDG_ECONOMIC",
+          "cabin": "ECONOMIC",
+          "paxKey": "01234567890001",
+          "compensationAmount": 802.0,
+          "compensationCurrency": "EUR",
+          "resold": true,
+          "voucher": {
+            "id": "f24ff7c1-7807-4c40-917d-cbf46f582636",
+            "number": "P4E8CD",
+            "amount": 802.0,
+            "currency": "EUR"
+          }
+        }
+      ],
+      "contact": { "email": "a****@fairlyne.Com", "locale": "fr-FR" },
+      "status": "SOLD",
+      "createdDateTime": "2024-10-29T16:38:50.487752Z",
+      "lastModifiedDateTime": "2024-10-29T16:51:02.593438Z"
+    }
+  ]
+}

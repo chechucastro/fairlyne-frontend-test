@@ -1,0 +1,959 @@
+{
+  "follow-up": [
+    {
+      "id": "432c95eb-2a3e-48d9-950d-32f1656dfb44",
+      "segments": [
+        {
+          "segmentKey": "AT10282_20241030_CDGRAK_ECONOMIC",
+          "flightNumber": "10282",
+          "carrierCode": "AT",
+          "loadFactor": 12,
+          "opportunity": false,
+          "departure": {
+            "at": "2024-10-30T14:26",
+            "locationCode": "CDG"
+          },
+          "arrival": {
+            "at": "2024-10-30T18:00",
+            "locationCode": "RAK"
+          }
+        }
+      ],
+      "statuses": [
+        {
+          "status": "PENDING_OPPORTUNITY",
+          "timestamp": "2024-10-28T12:23:09Z"
+        },
+        {
+          "status": "NO_LONGER_ELIGIBLE",
+          "timestamp": "2024-10-30T11:07:02Z"
+        },
+        {
+          "status": "PENDING_OPPORTUNITY",
+          "timestamp": "2024-11-08T15:02:46Z"
+        }
+      ],
+      "mails": [
+        {
+          "timestamp": "2024-10-29T14:26:05.734Z",
+          "subject": "NO_OPPORTUNITY",
+          "destination": ["alban.farcy@fairlyne.com"],
+          "events": [
+            {
+              "timestamp": "2024-10-29T14:26:05.734Z",
+              "type": "Send"
+            },
+            {
+              "timestamp": "2024-10-29T14:26:08.795Z",
+              "type": "Delivery"
+            }
+          ]
+        },
+        {
+          "timestamp": "2024-10-28T12:23:14.578Z",
+          "subject": "ALERT_SUBSCRIPTION",
+          "destination": ["a***@fairlyne.com"],
+          "events": [
+            {
+              "timestamp": "2024-10-28T12:23:14.578Z",
+              "type": "Send"
+            },
+            {
+              "timestamp": "2024-10-28T12:23:15.734Z",
+              "type": "Delivery"
+            }
+          ]
+        }
+      ],
+      "eligibilities": [
+        {
+          "step": "AUTH",
+          "correlationId": "5c1378fe0447945fd932223749b35fef",
+          "timestamp": "2024-10-28T11:06:52Z",
+          "checks": [
+            {
+              "criteria": "SEGMENT_CHANGED",
+              "valid": true
+            },
+            {
+              "criteria": "FLIGHT_SCOPE",
+              "valid": true
+            },
+            {
+              "criteria": "TICKET_NUMBER",
+              "valid": true
+            },
+            {
+              "criteria": "COMPANIES",
+              "valid": true
+            },
+            {
+              "criteria": "FARES",
+              "valid": true
+            },
+            {
+              "criteria": "REGISTRATION_WINDOW",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_STATUS",
+              "valid": true
+            }
+          ]
+        },
+        {
+          "step": "AUTH",
+          "correlationId": "030c7c6ade0bdd491ebca82211ecd8ab",
+          "timestamp": "2024-11-08T15:02:46Z",
+          "checks": [
+            {
+              "criteria": "FLIGHT_SCOPE",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_CHANGED",
+              "valid": true
+            },
+            {
+              "criteria": "TICKET_NUMBER",
+              "valid": true
+            },
+            {
+              "criteria": "COMPANIES",
+              "valid": true
+            },
+            {
+              "criteria": "FARES",
+              "valid": true
+            },
+            {
+              "criteria": "REGISTRATION_WINDOW",
+              "valid": true,
+              "details": [
+                {
+                  "valid": true
+                }
+              ]
+            },
+            {
+              "criteria": "SEGMENT_STATUS",
+              "valid": true
+            }
+          ]
+        },
+        {
+          "step": "AUTH",
+          "correlationId": "2ae1692c66decd34c83ab72b6e2724e7",
+          "timestamp": "2024-10-31T11:38:30Z",
+          "checks": [
+            {
+              "criteria": "FLIGHT_SCOPE",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_CHANGED",
+              "valid": true
+            },
+            {
+              "criteria": "TICKET_NUMBER",
+              "valid": true
+            },
+            {
+              "criteria": "COMPANIES",
+              "valid": true
+            },
+            {
+              "criteria": "FARES",
+              "valid": true
+            },
+            {
+              "criteria": "REGISTRATION_WINDOW",
+              "valid": false
+            },
+            {
+              "criteria": "SEGMENT_STATUS",
+              "valid": true
+            }
+          ]
+        },
+        {
+          "step": "AUTH",
+          "correlationId": "5c1479c17a2614ce28664b7b0d3773a6",
+          "timestamp": "2024-10-31T11:40:41Z",
+          "checks": [
+            {
+              "criteria": "FLIGHT_SCOPE",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_CHANGED",
+              "valid": true
+            },
+            {
+              "criteria": "TICKET_NUMBER",
+              "valid": true
+            },
+            {
+              "criteria": "COMPANIES",
+              "valid": true
+            },
+            {
+              "criteria": "FARES",
+              "valid": true
+            },
+            {
+              "criteria": "REGISTRATION_WINDOW",
+              "valid": false
+            },
+            {
+              "criteria": "SEGMENT_STATUS",
+              "valid": true
+            }
+          ]
+        },
+        {
+          "step": "AUTH",
+          "correlationId": "c8a1103eb7db75aa1ac583364dc6a888",
+          "timestamp": "2024-10-28T12:23:03Z",
+          "checks": [
+            {
+              "criteria": "FLIGHT_SCOPE",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_CHANGED",
+              "valid": true
+            },
+            {
+              "criteria": "TICKET_NUMBER",
+              "valid": true
+            },
+            {
+              "criteria": "COMPANIES",
+              "valid": true
+            },
+            {
+              "criteria": "FARES",
+              "valid": true
+            },
+            {
+              "criteria": "REGISTRATION_WINDOW",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_STATUS",
+              "valid": true
+            }
+          ]
+        },
+        {
+          "step": "AUTH",
+          "correlationId": "0f21f37ddbfacb349e24ccd4ff409d1f",
+          "timestamp": "2024-11-08T15:06:09Z",
+          "checks": [
+            {
+              "criteria": "FLIGHT_SCOPE",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_CHANGED",
+              "valid": true
+            },
+            {
+              "criteria": "TICKET_NUMBER",
+              "valid": true
+            },
+            {
+              "criteria": "COMPANIES",
+              "valid": true
+            },
+            {
+              "criteria": "FARES",
+              "valid": true
+            },
+            {
+              "criteria": "REGISTRATION_WINDOW",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_STATUS",
+              "valid": true
+            }
+          ]
+        },
+        {
+          "step": "AUTH",
+          "correlationId": "2fbf1b8563934a06b41ee3ecdfd0729e",
+          "timestamp": "2024-10-31T17:32:00Z",
+          "checks": [
+            {
+              "criteria": "FLIGHT_SCOPE",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_CHANGED",
+              "valid": true
+            },
+            {
+              "criteria": "TICKET_NUMBER",
+              "valid": true
+            },
+            {
+              "criteria": "COMPANIES",
+              "valid": true
+            },
+            {
+              "criteria": "FARES",
+              "valid": true
+            },
+            {
+              "criteria": "REGISTRATION_WINDOW",
+              "valid": false
+            },
+            {
+              "criteria": "SEGMENT_STATUS",
+              "valid": true
+            }
+          ]
+        },
+        {
+          "step": "AUTH",
+          "correlationId": "5a64f92f74c3449b829704a06cab3ea4",
+          "timestamp": "2024-10-31T11:37:09Z",
+          "checks": [
+            {
+              "criteria": "FLIGHT_SCOPE",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_CHANGED",
+              "valid": true
+            },
+            {
+              "criteria": "TICKET_NUMBER",
+              "valid": true
+            },
+            {
+              "criteria": "COMPANIES",
+              "valid": true
+            },
+            {
+              "criteria": "FARES",
+              "valid": true
+            },
+            {
+              "criteria": "REGISTRATION_WINDOW",
+              "valid": false
+            },
+            {
+              "criteria": "SEGMENT_STATUS",
+              "valid": true
+            }
+          ]
+        },
+        {
+          "step": "AUTH",
+          "correlationId": "92ec613e63b70205e6fc646cc8dda768",
+          "timestamp": "2024-10-31T11:40:31Z",
+          "checks": [
+            {
+              "criteria": "FLIGHT_SCOPE",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_CHANGED",
+              "valid": true
+            },
+            {
+              "criteria": "TICKET_NUMBER",
+              "valid": true
+            },
+            {
+              "criteria": "COMPANIES",
+              "valid": true
+            },
+            {
+              "criteria": "FARES",
+              "valid": true
+            },
+            {
+              "criteria": "REGISTRATION_WINDOW",
+              "valid": false
+            },
+            {
+              "criteria": "SEGMENT_STATUS",
+              "valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9dcbceac-8bc3-4417-8b06-e6ade3a139ec",
+      "segments": [
+        {
+          "segmentKey": "AT3031_20241231_CDGRAK_ECONOMIC",
+          "flightNumber": "3031",
+          "carrierCode": "AT",
+          "loadFactor": 100,
+          "opportunity": true,
+          "departure": {
+            "at": "2024-12-31T17:45",
+            "locationCode": "CDG"
+          },
+          "arrival": {
+            "at": "2024-12-31T17:49",
+            "locationCode": "RAK"
+          }
+        },
+        {
+          "segmentKey": "AT3032_20241231_RAKCDG_ECONOMIC",
+          "flightNumber": "3032",
+          "carrierCode": "AT",
+          "loadFactor": 100,
+          "opportunity": true,
+          "departure": {
+            "at": "2024-12-31T17:50",
+            "locationCode": "RAK"
+          },
+          "arrival": {
+            "at": "2024-12-31T17:55",
+            "locationCode": "CDG"
+          }
+        }
+      ],
+      "statuses": [
+        {
+          "status": "PENDING_SUBMISSION",
+          "timestamp": "2024-10-30T10:25:02Z"
+        },
+        {
+          "status": "ON_SALE",
+          "timestamp": "2024-10-30T10:25:03Z"
+        }
+      ],
+      "mails": [
+        {
+          "timestamp": "2024-10-30T10:25:09.17Z",
+          "subject": "RESALE_CREATION",
+          "destination": ["chechu.castro@fairlyne.com"],
+          "events": [
+            {
+              "timestamp": "2024-10-30T10:25:09.17Z",
+              "type": "Send"
+            },
+            {
+              "timestamp": "2024-10-30T10:25:10.298Z",
+              "type": "Delivery"
+            },
+            {
+              "timestamp": "2024-11-04T09:44:58.628Z",
+              "type": "Open"
+            }
+          ]
+        }
+      ],
+      "eligibilities": [
+        {
+          "step": "CREATE",
+          "correlationId": "ec54b56090980f7318ccdaee8d152a6b",
+          "timestamp": "2024-10-30T10:25:02Z",
+          "checks": [
+            {
+              "criteria": "FLIGHT_SCOPE",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_CHANGED",
+              "valid": true
+            },
+            {
+              "criteria": "TICKET_NUMBER",
+              "valid": true
+            },
+            {
+              "criteria": "COMPANIES",
+              "valid": true
+            },
+            {
+              "criteria": "FARES",
+              "valid": true
+            },
+            {
+              "criteria": "REGISTRATION_WINDOW",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_STATUS",
+              "valid": true
+            }
+          ]
+        },
+        {
+          "step": "AUTH",
+          "correlationId": "78c85060d6a431d0687054e0ba1fee04",
+          "timestamp": "2024-10-30T10:24:48Z",
+          "checks": [
+            {
+              "criteria": "FLIGHT_SCOPE",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_CHANGED",
+              "valid": true
+            },
+            {
+              "criteria": "TICKET_NUMBER",
+              "valid": true
+            },
+            {
+              "criteria": "COMPANIES",
+              "valid": true
+            },
+            {
+              "criteria": "FARES",
+              "valid": true
+            },
+            {
+              "criteria": "REGISTRATION_WINDOW",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_STATUS",
+              "valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e4465051-bbc9-44dd-bc53-a037d3e7826d",
+      "segments": [
+        {
+          "segmentKey": "AT3021_20241231_CDGRAK_ECONOMIC",
+          "flightNumber": "3021",
+          "carrierCode": "AT",
+          "loadFactor": 100,
+          "opportunity": true,
+          "departure": {
+            "at": "2024-12-31T17:45",
+            "locationCode": "CDG"
+          },
+          "arrival": {
+            "at": "2024-12-31T17:49",
+            "locationCode": "RAK"
+          }
+        },
+        {
+          "segmentKey": "AT3022_20241231_RAKCDG_ECONOMIC",
+          "flightNumber": "3022",
+          "carrierCode": "AT",
+          "loadFactor": 100,
+          "opportunity": true,
+          "departure": {
+            "at": "2024-12-31T17:50",
+            "locationCode": "RAK"
+          },
+          "arrival": {
+            "at": "2024-12-31T17:55",
+            "locationCode": "CDG"
+          }
+        }
+      ],
+      "statuses": [
+        {
+          "status": "PENDING_SUBMISSION",
+          "timestamp": "2024-10-30T09:09:07Z"
+        },
+        {
+          "status": "ON_SALE",
+          "timestamp": "2024-10-30T09:09:08Z"
+        }
+      ],
+      "mails": [
+        {
+          "timestamp": "2024-10-30T09:09:14.261Z",
+          "subject": "RESALE_CREATION",
+          "destination": ["chechu.castro@fairlyne.com"],
+          "events": [
+            {
+              "timestamp": "2024-10-30T09:09:14.261Z",
+              "type": "Send"
+            },
+            {
+              "timestamp": "2024-10-30T09:09:15.538Z",
+              "type": "Delivery"
+            },
+            {
+              "timestamp": "2024-11-05T20:29:12.765Z",
+              "type": "Open"
+            }
+          ]
+        }
+      ],
+      "eligibilities": [
+        {
+          "step": "AUTH",
+          "correlationId": "9850736e664bece6fb4b45dc1abaed76",
+          "timestamp": "2024-10-30T09:08:30Z",
+          "checks": [
+            {
+              "criteria": "FLIGHT_SCOPE",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_CHANGED",
+              "valid": true
+            },
+            {
+              "criteria": "TICKET_NUMBER",
+              "valid": true
+            },
+            {
+              "criteria": "COMPANIES",
+              "valid": true
+            },
+            {
+              "criteria": "FARES",
+              "valid": true
+            },
+            {
+              "criteria": "REGISTRATION_WINDOW",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_STATUS",
+              "valid": true
+            }
+          ]
+        },
+        {
+          "step": "CREATE",
+          "correlationId": "ab813026d4bef1e84cba8def743c5e53",
+          "timestamp": "2024-10-30T09:09:06Z",
+          "checks": [
+            {
+              "criteria": "FLIGHT_SCOPE",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_CHANGED",
+              "valid": true
+            },
+            {
+              "criteria": "TICKET_NUMBER",
+              "valid": true
+            },
+            {
+              "criteria": "COMPANIES",
+              "valid": true
+            },
+            {
+              "criteria": "FARES",
+              "valid": true
+            },
+            {
+              "criteria": "REGISTRATION_WINDOW",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_STATUS",
+              "valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b88d202c-0dbf-4a29-95ce-7525cbbfa73d",
+      "segments": [
+        {
+          "segmentKey": "AT3011_20241231_CDGRAK_ECONOMIC",
+          "flightNumber": "3011",
+          "carrierCode": "AT",
+          "loadFactor": 100,
+          "opportunity": true,
+          "departure": {
+            "at": "2024-12-31T17:45",
+            "locationCode": "CDG"
+          },
+          "arrival": {
+            "at": "2024-12-31T17:49",
+            "locationCode": "RAK"
+          }
+        },
+        {
+          "segmentKey": "AT3012_20241231_RAKCDG_ECONOMIC",
+          "flightNumber": "3012",
+          "carrierCode": "AT",
+          "loadFactor": 100,
+          "opportunity": true,
+          "departure": {
+            "at": "2024-12-31T17:50",
+            "locationCode": "RAK"
+          },
+          "arrival": {
+            "at": "2024-12-31T17:55",
+            "locationCode": "CDG"
+          }
+        }
+      ],
+      "statuses": [
+        {
+          "status": "PENDING_SUBMISSION",
+          "timestamp": "2024-10-30T08:53:45Z"
+        },
+        {
+          "status": "ON_SALE",
+          "timestamp": "2024-10-30T08:53:46Z"
+        }
+      ],
+      "mails": [
+        {
+          "timestamp": "2024-10-30T08:53:52.373Z",
+          "subject": "RESALE_CREATION",
+          "destination": ["chechu.castro@fairlyne.com"],
+          "events": [
+            {
+              "timestamp": "2024-10-30T08:53:52.373Z",
+              "type": "Send"
+            },
+            {
+              "timestamp": "2024-10-30T08:53:54.201Z",
+              "type": "Delivery"
+            },
+            {
+              "timestamp": "2024-11-05T20:29:13.869Z",
+              "type": "Open"
+            }
+          ]
+        }
+      ],
+      "eligibilities": [
+        {
+          "step": "CREATE",
+          "correlationId": "6d1bc3f2f583dcad7590082561764c64",
+          "timestamp": "2024-10-30T08:53:45Z",
+          "checks": [
+            {
+              "criteria": "SEGMENT_CHANGED",
+              "valid": true
+            },
+            {
+              "criteria": "FLIGHT_SCOPE",
+              "valid": true
+            },
+            {
+              "criteria": "TICKET_NUMBER",
+              "valid": true
+            },
+            {
+              "criteria": "COMPANIES",
+              "valid": true
+            },
+            {
+              "criteria": "FARES",
+              "valid": true
+            },
+            {
+              "criteria": "REGISTRATION_WINDOW",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_STATUS",
+              "valid": true
+            }
+          ]
+        },
+        {
+          "step": "AUTH",
+          "correlationId": "d7ff54860672674a26e992d046df2d4a",
+          "timestamp": "2024-10-30T08:52:46Z",
+          "checks": [
+            {
+              "criteria": "FLIGHT_SCOPE",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_CHANGED",
+              "valid": true
+            },
+            {
+              "criteria": "TICKET_NUMBER",
+              "valid": true
+            },
+            {
+              "criteria": "COMPANIES",
+              "valid": true
+            },
+            {
+              "criteria": "FARES",
+              "valid": true
+            },
+            {
+              "criteria": "REGISTRATION_WINDOW",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_STATUS",
+              "valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4412f40b-b10f-40f6-a0d4-cd2844efa023",
+      "segments": [
+        {
+          "segmentKey": "AT2931_20241029_CDGRAK_ECONOMIC",
+          "flightNumber": "2931",
+          "carrierCode": "AT",
+          "loadFactor": 10,
+          "opportunity": false,
+          "departure": {
+            "at": "2024-10-29T17:45",
+            "locationCode": "CDG"
+          },
+          "arrival": {
+            "at": "2024-10-29T17:49",
+            "locationCode": "RAK"
+          }
+        },
+        {
+          "segmentKey": "AT2932_20241029_RAKCDG_ECONOMIC",
+          "flightNumber": "2932",
+          "carrierCode": "AT",
+          "loadFactor": 100,
+          "opportunity": true,
+          "departure": {
+            "at": "2024-10-29T17:50",
+            "locationCode": "RAK"
+          },
+          "arrival": {
+            "at": "2024-10-29T17:55",
+            "locationCode": "CDG"
+          }
+        }
+      ],
+      "statuses": [
+        {
+          "status": "PENDING_SUBMISSION",
+          "timestamp": "2024-10-29T16:38:50Z"
+        },
+        {
+          "status": "ON_SALE",
+          "timestamp": "2024-10-29T16:38:50Z"
+        },
+        {
+          "status": "SOLD",
+          "timestamp": "2024-10-29T16:51:02Z"
+        }
+      ],
+      "mails": [
+        {
+          "timestamp": "2024-10-29T16:51:07.354Z",
+          "subject": "SOLD",
+          "destination": ["alban.farcy@fairlyne.Com"],
+          "events": [
+            {
+              "timestamp": "2024-10-29T16:51:07.354Z",
+              "type": "Send"
+            },
+            {
+              "timestamp": "2024-10-29T16:51:08.712Z",
+              "type": "Delivery"
+            }
+          ]
+        },
+        {
+          "timestamp": "2024-10-29T16:38:51.893Z",
+          "subject": "RESALE_CREATION",
+          "destination": ["alban.farcy@fairlyne.Com"],
+          "events": [
+            {
+              "timestamp": "2024-10-29T16:38:51.893Z",
+              "type": "Send"
+            },
+            {
+              "timestamp": "2024-10-29T16:38:53.331Z",
+              "type": "Delivery"
+            }
+          ]
+        }
+      ],
+      "eligibilities": [
+        {
+          "step": "CREATE",
+          "correlationId": "498bb7e72f3ac3c5e3f08865b2a6ab43",
+          "timestamp": "2024-10-29T16:38:49Z",
+          "checks": [
+            {
+              "criteria": "FLIGHT_SCOPE",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_CHANGED",
+              "valid": true
+            },
+            {
+              "criteria": "TICKET_NUMBER",
+              "valid": true
+            },
+            {
+              "criteria": "COMPANIES",
+              "valid": true
+            },
+            {
+              "criteria": "FARES",
+              "valid": true
+            },
+            {
+              "criteria": "REGISTRATION_WINDOW",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_STATUS",
+              "valid": true
+            }
+          ]
+        },
+        {
+          "step": "AUTH",
+          "correlationId": "5266572ca7ff2a2cb403de2a0b49dd77",
+          "timestamp": "2024-10-29T16:38:41Z",
+          "checks": [
+            {
+              "criteria": "FLIGHT_SCOPE",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_CHANGED",
+              "valid": true
+            },
+            {
+              "criteria": "TICKET_NUMBER",
+              "valid": true
+            },
+            {
+              "criteria": "COMPANIES",
+              "valid": true
+            },
+            {
+              "criteria": "FARES",
+              "valid": true
+            },
+            {
+              "criteria": "REGISTRATION_WINDOW",
+              "valid": true
+            },
+            {
+              "criteria": "SEGMENT_STATUS",
+              "valid": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
